@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "Kerjakan proposal",
+    "priority": "High",
+    "status": "On-Progress",
+    "creationDate": 1736793600,
+    "dueDate": 1736993600,
+    "tags": ["Work", "Urgent"],
+    "description": "Jangan lupa lampirin data bulan ini",
+    "subTasks": [
+      { "title": "Cari data sales", "done": false },
+      { "title": "Buat draft laporan", "done": false },
+      { "title": "Revisi sesuai feedback", "done": false }
+    ],
+    "reminder": 1736913600
+  },
+  {
+    "id": 2,
+    "name": "Belajar Golang",
+    "priority": "Medium",
+    "status": "On-Progress",
+    "creationDate": 1736800000,
+    "dueDate": 1737100000,
+    "tags": ["Learning", "Coding"],
+    "description": "Pelajari konsep pipeline dan goroutine",
+    "subTasks": [
+      { "title": "Baca dokumentasi", "done": true },
+      { "title": "Buat project sederhana", "done": false }
+    ],
+    "reminder": 1736900000
+  },
+  {
+    "id": 3,
+    "name": "Beli bahan masak",
+    "priority": "Low",
+    "status": "On-Progress",
+    "creationDate": 1736810000,
+    "dueDate": 1736910000,
+    "tags": ["Personal", "Shopping"],
+    "description": "Beli bahan buat masak weekend",
+    "subTasks": [
+      { "title": "Daging sapi", "done": false },
+      { "title": "Sayuran", "done": true },
+      { "title": "Bumbu dapur", "done": true }
+    ],
+    "reminder": 1736850000
+  },
+  {
+    "id": 4,
+    "name": "Rapat mingguan",
+    "priority": "High",
+    "status": "On-Progress",
+    "creationDate": 1736820000,
+    "dueDate": 1736920000,
+    "tags": ["Work", "Meeting"],
+    "description": "Diskusi project minggu ini",
+    "subTasks": [
+      { "title": "Persiapkan materi", "done": false },
+      { "title": "Susun agenda", "done": true }
+    ],
+    "reminder": 1736910000
+  },
+  {
+    "id": 5,
+    "name": "Latihan gym",
+    "priority": "Medium",
+    "status": "Done",
+    "creationDate": 1736830000,
+    "dueDate": 1736930000,
+    "tags": ["Health", "Exercise"],
+    "description": "Sesi latihan full body",
+    "subTasks": [
+      { "title": "Pemanasan", "done": true },
+      { "title": "Angkat beban", "done": true },
+      { "title": "Cooldown", "done": true }
+    ],
+    "reminder": 1736840000
+  },
+  {
+    "id": 6,
+    "name": "Update blog pribadi",
+    "priority": "Low",
+    "status": "On-Progress",
+    "creationDate": 1736840000,
+    "dueDate": 1736940000,
+    "tags": ["Personal", "Writing"],
+    "description": "Update blog dengan tulisan terbaru",
+    "subTasks": [
+      { "title": "Cari ide", "done": true },
+      { "title": "Mulai menulis", "done": false }
+    ],
+    "reminder": 1736900000
+  },
+  {
+    "id": 7,
+    "name": "Bayar tagihan listrik",
+    "priority": "High",
+    "status": "On-Progress",
+    "creationDate": 1736850000,
+    "dueDate": 1736950000,
+    "tags": ["Personal", "Bills"],
+    "description": "Bayar sebelum jatuh tempo",
+    "subTasks": [
+      { "title": "Cek saldo", "done": true },
+      { "title": "Bayar online", "done": false }
+    ],
+    "reminder": 1736890000
+  },
+  {
+    "id": 8,
+    "name": "Baca buku baru",
+    "priority": "Low",
+    "status": "On-Progress",
+    "creationDate": 1736860000,
+    "dueDate": 1736960000,
+    "tags": ["Personal", "Reading"],
+    "description": "Baca minimal 10 halaman sehari",
+    "subTasks": [
+      { "title": "Baca bab 1", "done": false },
+      { "title": "Baca bab 2", "done": false }
+    ],
+    "reminder": 1736910000
+  },
+  {
+    "id": 9,
+    "name": "Refactor code project",
+    "priority": "Medium",
+    "status": "On-Progress",
+    "creationDate": 1736870000,
+    "dueDate": 1736970000,
+    "tags": ["Work", "Coding"],
+    "description": "Tingkatkan struktur code dan optimasi",
+    "subTasks": [
+      { "title": "Refactor fungsi utama", "done": false },
+      { "title": "Perbaiki bug kecil", "done": true }
+    ],
+    "reminder": 1736950000
+  },
+  {
+    "id": 10,
+    "name": "Nonton film di VPS",
+    "priority": "Low",
+    "status": "On-Progress",
+    "creationDate": 1736880000,
+    "dueDate": 1736980000,
+    "tags": ["Personal", "Entertainment"],
+    "description": "Streaming dari VPS di Jogja",
+    "subTasks": [
+      { "title": "Cek koneksi VPN", "done": true },
+      { "title": "Set MPV player", "done": false }
+    ],
+    "reminder": 1736940000
+  }
+]
