@@ -3,7 +3,7 @@ import "./index.css";
 import Table from "./components/table";
 
 createRoot(document.getElementById("root")).render(
-  <div className="container">
+  <div className="container font-roboto">
     <Table />
   </div>
 );
