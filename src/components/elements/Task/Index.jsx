@@ -1,6 +1,7 @@
 import { useState } from "react";
 import HeaderRow from "./HeaderRow";
 import BodyRow from "./BodyRow";
+import PropTypes from "prop-types";
 
 export default function Task({ task }) {
   const [isExpand, setIsExpand] = useState(false);
@@ -29,3 +30,7 @@ export default function Task({ task }) {
     </li>
   );
 }
+
+Task.propTypes = {
+  task: PropTypes.object,
+};

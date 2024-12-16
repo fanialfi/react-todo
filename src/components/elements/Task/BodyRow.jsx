@@ -1,5 +1,6 @@
 import capitalizeWords from "../../../utils/capitalizeWords";
 import unixFormat from "../../../utils/unixFormat";
+import PropTypes from "prop-types";
 
 export default function BodyRow({ task }) {
   return (
@@ -16,6 +17,10 @@ export default function BodyRow({ task }) {
   );
 }
 
+BodyRow.propTypes = {
+  task: PropTypes.object,
+};
+
 function DataRow({ nameTable, children }) {
   return (
     <div className="flex mb-3">
@@ -25,3 +30,8 @@ function DataRow({ nameTable, children }) {
     </div>
   );
 }
+
+DataRow.propTypes = {
+  nameTable: PropTypes.string,
+  children: PropTypes.any,
+};

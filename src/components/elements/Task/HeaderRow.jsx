@@ -1,4 +1,5 @@
 import capitalizeWords from "../../../utils/capitalizeWords";
+import PropTypes from "prop-types";
 
 export default function HeaderRow({ task }) {
   return (
@@ -7,3 +8,7 @@ export default function HeaderRow({ task }) {
     </div>
   );
 }
+
+HeaderRow.propTypes = {
+  task: PropTypes.object,
+};
