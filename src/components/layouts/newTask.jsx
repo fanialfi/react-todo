@@ -2,7 +2,9 @@ export default function NewTask() {
   return (
     <div className="container bg-green-300">
       <div className="text-center p-4  ">
-        <h1>Apa Rencanamu Hari ini?</h1>
+        <h1 className="py-4 font-bold text-xl tracking-wider">
+          Apa Rencanamu Hari ini?
+        </h1>
         <div>
           <form action="">
             <input
