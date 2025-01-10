@@ -9,25 +9,32 @@ import {
 import HeaderPage from "./pages/header";
 import TaskFormPage from "./pages/taskFormPage";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <HeaderPage />,
+      children: [
+        {
+          path: "todo",
+          element: <TaskFormPage />,
+        },
+        {
+          index: true,
+          element: <Navigate to={"/todo"} replace />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <HeaderPage />,
-    children: [
-      {
-        path: "todo",
-        element: <TaskFormPage />,
-      },
-      {
-        index: true,
-        element: <Navigate to={"/todo"} replace />,
-      },
-    ],
-  },
-]);
+    future: {
+      v7_relativeSplatPath: true,
+    },
+  }
+);
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} future={{ v7_startTransition: true }} />
   </StrictMode>
 );
