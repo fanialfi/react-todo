@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 export default function CardTask({ children }) {
   return (
-    <div className="flex overflow-hidden p-1 mx-2 my-1 rounded-md shadow-md h-16">
+    <div className="flex overflow-hidden p-1 mx-2 my-1 rounded-md bg-white h-16">
       <div className="basis-1/5 flex items-center justify-center border-r">
         <InputElement
           label={false}
