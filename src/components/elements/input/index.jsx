@@ -9,9 +9,10 @@ export default function InputElement({
   nameInput,
   placeholder,
   type,
+  className,
 }) {
   return (
-    <div className="my-2">
+    <div className={className}>
       {label && <LabelElement id={id}>{children}</LabelElement>}
       <Input
         id={id}
@@ -30,4 +31,5 @@ InputElement.propTypes = {
   nameInput: PropTypes.string,
   placeholder: PropTypes.string,
   type: PropTypes.string,
+  className: PropTypes.string,
 };
