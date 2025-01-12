@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import { StrictMode } from "react";
-import "./index.css";
+import "./index.css" with {type:'csts'};
 import {
   createBrowserRouter,
   RouterProvider,
@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import HeaderPage from "./pages/header";
 import TaskFormPage from "./pages/taskFormPage";
+import CardTask from "./components/fragments/CardTask";
 
 const router = createBrowserRouter(
   [
@@ -24,7 +25,10 @@ const router = createBrowserRouter(
           element: <Navigate to={"/todo"} replace />,
         },
       ],
-    },
+    },{
+      path:"/list",
+      element: <CardTask>Mengaji itu lebih baik dari pada main game</CardTask>
+    }
   ],
   {
     future: {
